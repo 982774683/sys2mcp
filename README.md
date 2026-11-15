@@ -26,7 +26,7 @@ npx sys2mcp@latest
 
 ## 免费演示包
 
-[![Release](https://img.shields.io/badge/release-v0.1.0-blue)](<Release链接>)
+[![Release](https://img.shields.io/badge/release-v0.1.0-blue)](https://github.com/982774683/sys2mcp/releases/tag/v0.1.0)
 
 - 最小可跑的 MCP server 骨架（Local 形态，npx 直跑）
 - change-gate 精简版（发布前三道门 + gate-log 模板）

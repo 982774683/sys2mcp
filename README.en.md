@@ -26,7 +26,7 @@ npx sys2mcp@latest
 
 ## Free starter kit
 
-[![Release](https://img.shields.io/badge/release-v0.1.0-blue)](<Release>)
+[![Release](https://img.shields.io/badge/release-v0.1.0-blue)](https://github.com/982774683/sys2mcp/releases/tag/v0.1.0)
 
 - Minimal runnable MCP server skeleton (local, npx)
 - change-gate lite (three gates + gate-log template)
