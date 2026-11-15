@@ -1,0 +1,13 @@
+# Smithery server config for sys2mcp starter skeleton
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      allowHosts:
+        type: string
+        description: Comma-separated allowlisted hosts for fetch_json
+        default: example.com
+  commandFunction:
+    |-
+    (config) => ({ command: 'node', args: ['starter-kit/mcp-server-skeleton/index.js'], env: { SYS2MCP_ALLOW_HOSTS: config.allowHosts } })
