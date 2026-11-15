@@ -1,0 +1,12 @@
+{
+  "name": "sys2mcp-starter",
+  "version": "0.1.0",
+  "description": "Minimal runnable MCP server skeleton (stdio) from the sys2mcp starter kit",
+  "type": "module",
+  "bin": { "sys2mcp-starter": "./index.js" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  },
+  "license": "MIT"
+}
